@@ -73,7 +73,7 @@ client.on('message', message => {
 
 
 
-const perfix = '.';
+const perfix = '#';
 client.on('message', msg => {
  if (msg.content.startsWith('*' + 'send')) {/////////////////////Alpha Codes   By : Mahmoud QuaStyle 
       let args = msg.content.split(' ').slice(1)
@@ -213,7 +213,7 @@ client.on('message',function(message) {
 });/////////////////////Alpha Codes   By : Mahmoud QuaStyle 
 
 client.on("message", msg => {
-  if(msg.content === '*' + "id") {
+  if(msg.content === '*' + "537783570941476864") {
       const embed = new Discord.RichEmbed();
   embed.addField("🔱| اسم الحساب :", `${msg.author.username}#${msg.author.discriminator}`, true)
           .addField("🆔| الاي دي :", `${msg.author.id}`, true)
